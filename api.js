@@ -4,6 +4,7 @@ require('./config');
 const Product=require('./product');
 app.post("/create",(req,resp)=>{
     resp.send("Done creating");
+    console.log("hello world")
 
 
 
